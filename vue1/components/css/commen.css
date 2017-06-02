@@ -1,0 +1,74 @@
+/*头部*/
+.isShow{
+	background-color: #09BB07;
+}
+
+.mu-appbar{
+	position:fixed;
+	top: 0;
+	left: 0;
+	/*z-index: 100;*/
+}
+/*轮播图*/
+.swiper-container {
+		width: 100%;
+		height: 100%;
+	}
+.swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		background: #fff;
+		/* Center slide text vertically */
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+		margin-top: 56px;
+	}	
+.swiper-img {
+		width: 100%;
+	}
+	
+/*详情页*/
+.box{
+	position: relative;
+	top:0;
+	left:0;
+	z-index:1000;
+	background: white;
+}
+
+/*后退按钮*/
+.closeShow{
+	position: relative;
+	z-index:2000;
+}
+
+/*侧边栏*/
+.cebian{
+	position: absolute;
+	top:60px;
+	left:0;
+	z-index:1000;
+}
+
+/*登录样式*/
+.demo-menu{
+	width:70px;
+	z-index:1000;
+	position: absolute;
+	top:56px;
+	right:0;
+	display: none;
+}
+.denglu{
+	display: block;
+}

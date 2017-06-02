@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+#过滤包管理目录
+/node_modules
+=======
+#过滤某个具体文件
+/node_modules
+
+#过滤某个具体文件
+>>>>>>> c2fe164b1b77cd987efca002655dc6a54ce01a1e
