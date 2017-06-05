@@ -63,7 +63,7 @@ module.exports={
 		//服务器文件夹
 		contentBase:"./public",
 		//端口设置
-		//port:54123,
+//		port:54123,
 		//实时更新
 		inline:true
 	},
