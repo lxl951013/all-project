@@ -50,7 +50,7 @@
 				this.isShowLoading += 1
 				$.ajax({
 					type: "GET",
-					url: "http://localhost/vueproject/public/yule.php",
+					url: "http://1.vueproject.applinzi.com/public/yule.php",
 					data: {
 						page: this.page
 					},

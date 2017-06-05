@@ -46,14 +46,14 @@
 				this.isShowLoading += 1;
 				$.ajax({
 					type: "GET",
-					url: "http://localhost/vueproject/public/news.php",
+				    url: "http://1.vueproject.applinzi.com/public/news.php",
 					data: {
 						page: this.page
 					},
 					dataType: "json",
 					success: function(data) {
 						this.isShowLoading -= 1;
-						//console.log(data);
+						console.log(data);
 						this.newss = this.newss.concat(data.showapi_res_body.pagebean.contentlist);
 //						console.log(this.newss);						
 					}.bind(this)
